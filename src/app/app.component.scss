@@ -1,0 +1,20 @@
+.bible {
+    display: flex;
+    height: 100vh;
+
+    .book {
+        width: 75vw;
+        height: 100%;
+        // background-color: #ddd;
+
+        .selectBook {
+            width: 80%;
+        }
+    }
+
+    .bookDetails {
+        flex-grow: 1;
+        height: 100%;
+        background-color: rgb(255, 238, 207);
+    }
+}
